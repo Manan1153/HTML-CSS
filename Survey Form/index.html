@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>\Manan Form</title>
+</head>
+
+<body>
+    <h1 id="title">Training Survey Form</h1>
+    <p id="description">Thank You For Participating In This Training Survey Form</p>
+
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Enter Your Name: <input type="text" id="name" placeholder="Ex. Manan"
+                    required></label>
+            <label id="email-label">Enter Your Email: <input type="email" id="email" placeholder="Ex. abc@gmail.com"
+                    required></label>
+            <label id="number-label">Enter Your Age: <input type="number" id="number" min="17" max="44"
+                    placeholder="Ex. 23"></label>
+        </fieldset>
+        <fieldset>
+            <label>Enter the age range you are in:
+                <select id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">17-15</option>
+                    <option value="2">16-30</option>
+                    <option value="3">31-44</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label><input type="radio" name="ofline-online trainig" value="training mode" class="inline">Offline
+                Training</label>
+            <label><input type="radio" name="ofline-online trainig" value="training mode" class="inline">Online
+                Training</label>
+            <label><input type="checkbox" name="terms" value="conditions" class="inline" required> I accept the <a
+                    href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+
+            <label>Provide a bio: <textarea name="bio" rows="3" cols="30"
+                    placeholder="I had 4 years of experience in..."></textarea></label>
+
+        </fieldset>
+        <label><input type="checkbox" name="agreement" value="agrees">I agrees to receive notifications related to other
+            surveys</label>
+
+        <input type="Submit" id="submit" value="Submit">
+
+    </form>
+
+
+</body>
+
+</html>
