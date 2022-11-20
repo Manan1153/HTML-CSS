@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation</title>
+</head>
+
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Python is an easy to learn, powerful programming language. It has efficient high-level data
+                    structures and a simple but
+                    effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing,
+                    together with its
+                    interpreted nature, make it an ideal language for scripting and rapid application development in
+                    many areas on most
+                    platforms.</p>
+                <p>The Python interpreter and the extensive standard library are freely available in source or binary
+                    form for all major
+                    platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same
+                    site also contains
+                    distributions of and pointers to many free third party Python modules, programs and tools, and
+                    additional documentation.</p>
+
+                <p>The Python interpreter is easily extended with new functions and data types implemented in C or C++
+                    (or other languages
+                    callable from C). Python is also suitable as an extension language for customizable applications.
+
+                    This tutorial introduces the reader informally to the basic concepts and features of the Python
+                    language and system. It
+                    helps to have a Python interpreter handy for hands-on experience, but all examples are
+                    self-contained, so the tutorial
+                    can be read off-line as well.</p>
+
+                <p>For a description of standard objects and modules, see <a
+                        href="https://docs.python.org/3/library/index.html#library-index">The Python Standard
+                        Library</a>. <a href="https://docs.python.org/3/reference/index.html#reference-index">The Python
+                        Language Reference</a> gives
+                    a more formal definition of the language. To write extensions in C or C++, read Extending and
+                    Embedding the Python
+                    Interpreter and Python/C API Reference Manual. There are also several books covering Python in
+                    depth.</p>
+            </article>
+        </section>
+        <hr>
+        <hr>
+
+        <section class="main-section" id="What_you_should_already_know">
+            <header>What you should already know</header>
+            <article>
+                <p>This guide assumes you have the following basic background:</p>
+                <ul>
+                    <li>A general understanding of the Internet and the any programming language.</li>
+                    <li>Good working knowledge of Python.</li>
+                    <li>Some programming experience. If you are new to programming, try one of the tutorials from the
+                        Internet about Python.</li>
+                </ul>
+            </article>
+        </section>
+        <hr>
+        <hr>
+
+        <section class="main-section" id="Python_Interpreter">
+            <header>Python Interpreter</header>
+            <article>
+                <p>The interpreter’s line-editing features include interactive editing, history substitution and code
+                    completion on systems
+                    that support the <a href="https://tiswww.case.edu/php/chet/readline/rltop.html">GNU Readline</a>
+                    library. Perhaps the quickest check to see whether command line
+                    editing is supported is
+                    typing Control-P to the first Python prompt you get. If it beeps, you have command line editing; see
+                    Appendix
+                    <a href="https://docs.python.org/3/tutorial/interactive.html#tut-interacting">Interactive Input
+                        Editing and History Substitution</a> for an introduction to the keys. If nothing
+                    appears to happen, or if
+                    ^P is echoed, command line editing isn’t available; you’ll only be able to use backspace to remove
+                    characters from the
+                    current line.
+                </p>
+            </article>
+        </section>
+        <hr>
+        <hr>
+
+        <section class="main-section" id="Hello_World">
+            <header>Hello_World</header>
+            <article>
+                <p>To get started with writing Python, open the Scratchpad and write your first "Hello world" Python
+                    code:</p>
+                <code>
+                    "print("This is Python")
+                    print("Hello World")"
+                </code>
+                <p>Copy and paste it in code editor.</p>
+            </article>
+        </section>
+        <br>
+        <hr>
+        <hr>
+
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <article>
+                <p>Variables are containers for storing data values.
+                </p>
+                <hr>
+                <h2>Creating Variables</h2>
+                <p>Python has no command for declaring a variable.</p>
+                <p>A variable is created the moment you first assing a value to it.</p>
+                <code>
+                    x = 5
+                    y = "Manan"
+                    print(x)
+                    print(y)
+                </code>
+            </article>
+        </section>
+        <hr>
+        <hr>
+
+        <section class="main-section" id="Python_Conditional_Statements">
+            <header>Python Conditional Statements</header>
+            <article>
+                <p>Python supports the usual logical conditions from mathematics:</p>
+                <ul>
+                    <li>Equals: <span>a == b</span></li>
+                    <li>Not Equals: <span>a != b</span></li>
+                    <li>Less than: <span>a < b</span>
+                    </li>
+                    <li>Less than or equal to: <span>a <= b</span>
+                    </li>
+                    <li>Greater than: <span>a > b</span></li>
+                    <li>Greater than or equal to: <span>a >= b</span></li>
+                </ul>
+
+                For example:<br>
+                <code>
+                    a = 33
+                    b = 200
+                    if a > b:
+                        &nbsp&nbsp print("b is greater than a")
+                </code>
+            </article>
+        </section>
+        <hr>
+        <hr>
+
+        <section class="main-section" id="For_Loop">
+            <header>For Loop</header>
+            <article>
+                <p>A <span>for</span> loop is used for iterating over a sequence (that is either a list, a tuple, a
+                    dictionary, a
+                    set, or a string)</p>
+                <code>
+                        fruits = ["apple", "banana", "cherry"]
+                        for i in fruits:
+                        &nbsp&nbsp print(i)
+                    </code>
+            </article>
+        </section>
+        <hr>
+        <hr>
+
+        <section class="main-section" id="While_Loop">
+            <header>While Loop</header>
+            <article>
+                <p>With the <span>while</span> loop we can execute a set of statements as long as a condition is true.
+                </p>
+                <p>For Example: Print i as long i is less then 6:</p>
+                <code>
+                    i = 1
+                    while i < 6
+                    print(i) 
+                    &nbsp&nbsp i += 1
+                </code>
+            </article>
+        </section>
+
+        <section class="main-section" id="References">
+            <header>References</header>
+            <ul>
+                <li>All the documentation in this page is taken from <a
+                        href="https://docs.python.org/3/tutorial/index.html">Python online site.</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#Introduction">Introduction</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Python_Interpreter">Python Interpreter</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Hello_World">Hello_World</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Variables">Variables</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Python_Conditional_Statements">Python Conditional Statements</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#For_Loop">For Loop</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#While_Loop">While Loop</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#References">References</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
